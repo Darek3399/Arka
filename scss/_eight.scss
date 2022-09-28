@@ -87,6 +87,7 @@
 		}
 		&__row{
 			box-shadow: 0px 10px 44px rgba(143, 143, 143, 0.25);
+			border: 2px solid rgba(168, 168, 168, 0.079);
 			width: 310px;
 			background: #3D5675;
 			color: #FFFFFF;
@@ -112,7 +113,7 @@
 				cursor: default;
 				padding-left: 0;
 				text-align: center;
-				background: #FFFFFF;
+				background: #dddddd53;
 				border-radius: 24px;
 				a {
 					color: #3D5675;

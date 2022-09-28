@@ -1230,6 +1230,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .footer__row {
     box-shadow: 0px 10px 44px rgba(143, 143, 143, 0.25);
+    border: 2px solid rgba(168, 168, 168, 0.079);
     width: 310px;
     background: #3D5675;
     color: #FFFFFF;
@@ -1256,7 +1257,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     padding-left: 0;
     text-align: center;
-    background: #FFFFFF;
+    background: rgba(221, 221, 221, 0.3254901961);
     border-radius: 24px;
   }
   .footer__row:focus a {

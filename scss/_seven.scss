@@ -1,0 +1,85 @@
+.seven {
+	padding: 90px 0 120px;
+	display: grid;
+	gap: 55px;
+	justify-content: center;
+	&__title {
+		font-weight: 700;
+		font-size: 31px;
+		text-align: center;
+		color: #011F3A;
+	}
+	&__button-box {
+		width: fit-content;
+	}
+	&__button {
+		&_dark {
+			width: fit-content;
+			color: #FFFFFF;
+			background: #3D5675;
+			border-radius: 44px;
+			font-weight: 700;
+			font-size: 14px;
+			letter-spacing: 1.96px;
+			text-transform: uppercase;
+			padding: 13px 25px;
+			margin-right: 11px;
+		}
+		&_light {
+			width: fit-content;
+			background: #fff;
+			color: #3D5675;
+			border-radius: 44px;
+			font-weight: 700;
+			font-size: 14px;
+			letter-spacing: 1.96px;
+			text-transform: uppercase;
+			padding: 13px 25px;
+		}
+	}
+}	
+
+
+@media (max-width:1250px) {
+	.seven{
+		padding: 90px 0 90px;
+		gap: 25px;
+	}
+}
+
+
+
+@media (max-width:624px){
+	.seven{
+		padding: 60px 0 60px;
+		&__button-box{
+			display: grid;
+			gap: 15px;
+		}
+		&__button_dark{
+			margin: 0 auto;
+		}
+	}
+}
+
+
+@media (max-width:473px){
+	.seven{
+		gap: 15px;
+		padding: 40px 0 40px;
+		&__title{
+			font-size: 27px;
+		}
+		&__button-box{
+			gap: 10px;
+		}
+		&__button_dark{
+			padding: 10px 20px;
+			font-size: 10px;
+		}
+		&__button_light{
+			padding: 10px 20px;
+			font-size: 10px;
+		}
+	}
+}

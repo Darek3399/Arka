@@ -1,0 +1,30 @@
+@import "_onetwo";
+@import "_nullstyle";
+@import "_header";
+@import "_one";
+@import "_two";
+@import "_three";
+@import "_four";
+@import "_five";
+@import "_six";
+@import "_seven";
+@import "_eight";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+// font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+// font-family: 'Lato', sans-serif;
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	min-width: 320px;
+	background: #EEEEEE;
+}
+
+
+.conteiner{
+	width: 80%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
